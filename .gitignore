@@ -10,7 +10,7 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
-
+*.wav
 # 빌드/캐시 파일
 *.so
 *.dll
