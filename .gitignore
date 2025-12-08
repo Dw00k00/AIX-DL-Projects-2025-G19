@@ -11,3 +11,5 @@ outputs/
 data/wavs_original/
 data/mels_original/
 data/mels_refined/
+# Jupyter notebook checkpoints (임시파일, Git에 올릴 필요 없음)
+**/.ipynb_checkpoints/
