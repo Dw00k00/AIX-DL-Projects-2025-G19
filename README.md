@@ -12,6 +12,7 @@
 ---
 Link
 동영상 링크 :
+
 ipynb 파일 뷰어 링크 :https://nbviewer.org/github/Dw00k00/AIX-DL-Projects-2025-G19/blob/main/notebooks/hifi_report.ipynb
 # 🎵 딥러닝 기반 노래 음성 스타일 전이 (Singing Voice Conversion, SVC)
 
@@ -33,20 +34,22 @@ ipynb 파일 뷰어 링크 :https://nbviewer.org/github/Dw00k00/AIX-DL-Projects-
 
 # 📁 프로젝트 구조
 hifi-gan/
-├── scripts/
-│ ├── wav_to_mel.py # STEP 1: WAV → MEL 변환
-│ ├── mel_refine.py # STEP 2: Diffusion Mel Refiner
-│ └── inference.py # STEP 3: MEL → HiFi-GAN vocoder
+├── scripts/                     
+│   ├── wav_to_mel.py        # STEP 1: WAV → MEL 변환
+│   ├── mel_refine.py        # STEP 2: Diffusion Mel Refiner
+│   └── inference.py         # STEP 3: MEL → HiFi-GAN vocoder
 │
 ├── data/
-│ ├── wavs_original/ # 입력 원본 노래 WAV
-│ ├── mels_original/ # mel-spectrogram
-│ ├── mels_refined/ # refiner 출력 mel
-│ └── generated/ # vocoder로 복원된 WAV
+│   ├── wavs_original/       # 입력: 원본 노래 WAV
+│   ├── mels_original/       # 원본 mel-spectrogram
+│   ├── mels_refined/        # Refiner 출력 mel
+│   └── generated/           # Vocoder로 복원된 WAV
 │
-├── models.py / env.py # HiFi-GAN 구성요소
+├── models.py                # HiFi-GAN Generator / Discriminator 정의
+├── env.py                   # HiFi-GAN 설정 로더
+│
 └── notebooks/
-└── hifi_report.ipynb # 분석용 Jupyter Notebook
+    └── hifi_report.ipynb    # 분석용 Notebook
 
 
 # 핵심 요약
