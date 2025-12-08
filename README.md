@@ -10,7 +10,9 @@
   *코드 작성, mel 변환·전처리 파이프라인 구현, 결과 시각화·실험 지원*
 
 ---
-
+Link
+동영상 링크 :
+ipynb 파일 뷰어 링크 :https://nbviewer.org/github/Dw00k00/AIX-DL-Projects-2025-G19/blob/main/notebooks/hifi_report.ipynb
 # 🎵 딥러닝 기반 노래 음성 스타일 전이 (Singing Voice Conversion, SVC)
 
 본 프로젝트는 **딥러닝을 이용한 노래 음성 스타일 전이(SVC)** 를 목표로 한다.  
