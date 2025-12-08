@@ -1,38 +1,13 @@
-# --------------------
-# Python / 가상환경
-# --------------------
-.venv/
-venv/
-env/
-ENV/
-
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.wav
-# 빌드/캐시 파일
-*.so
-*.dll
-*.log
-
-# --------------------
-# Jupyter
-# --------------------
-.ipynb_checkpoints/
-
-# --------------------
-
-# --------------------
-data/
-checkpoints/
-outputs/
-
-
-# VSCode, PyCharm 등
-.vscode/
-.idea/
 
 # 환경 변수 파일
 .env
 *.env
+.venv/
+__pycache__/
+*.wav
+*.npy
+*.pt
+outputs/
+data/wavs_original/
+data/mels_original/
+data/mels_refined/
