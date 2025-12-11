@@ -11,7 +11,7 @@
 
 ---
 Link
-동영상 링크 :
+동영상 링크 :https://youtu.be/jsJDc-lbPVw
 
 ipynb 파일 뷰어 링크 :https://nbviewer.org/github/Dw00k00/AIX-DL-Projects-2025-G19/blob/main/notebooks/hifi_report.ipynb
 # 🎵 딥러닝 기반 노래 음성 스타일 전이 (Singing Voice Conversion, SVC)
